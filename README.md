@@ -67,3 +67,9 @@ Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corre
 Upload the PNG file on the Assignment submission page
 
 Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
+
+# Feedback Received
+peer 1 → Good job! Just a comment on the grep function: it shoul have been applied to SCC$EI.Sector and not to the Short Name.
+peer 2 → Looks good. If you wanted to clean up your y-axes, you can turn off scientific notation with the following R command: options(scipen=999). Also, you might consider adding a facet wrapping to your ggplots with more than one element for easier comparison (see http://docs.ggplot2.org/0.9.3.1/facet_wrap.html)
+peer 3 → [This area was left blank by the evaluator.]
+peer 4 → Nice work. You might've wanted to include trucks in your filtering for motor vehicles, too (I don't think your subsetting did).
